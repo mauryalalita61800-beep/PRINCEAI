@@ -1,0 +1,6 @@
+{
+  "name": "PrinceAI",
+  "description": "All-in-one GenAI Platform featuring Chat, Documents, Coding, Website & Android Builders, PPT & Docs, Image Studio, Web Search, Chatbot Builder, Authentication, Autonomous Agent, Workspace, Multimodal Voice, Admin, Team Collaboration, RAG Knowledge Base, and Workflow Automation.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,352 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_01",
+      "email": "admin@princeai.com",
+      "name": "Prince Administrator",
+      "passwordHash": "3bdeb2cad000f0f0e3521cc7a118c4994ee50b85cc541b83ccfa5705b12de67f",
+      "role": "SUPER_ADMIN",
+      "plan": "ADMIN",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-18T05:23:25.755Z",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=PrinceAdmin"
+    },
+    {
+      "id": "usr_user_01",
+      "email": "user@princeai.com",
+      "name": "Demo Developer",
+      "passwordHash": "faab6e6546153a537a7f530493efb454cf9a839da2ab9ad82453cf5239dc1c42",
+      "role": "USER",
+      "plan": "PRO",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-18T05:23:25.756Z",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=DemoUser"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_933a115b0cc6",
+      "userId": "usr_user_01",
+      "title": "Hello PrinceAI! Explain in 1 sentence wh...",
+      "createdAt": "2026-09-18T05:29:31.025Z",
+      "updatedAt": "2026-09-18T05:29:41.243Z",
+      "messages": [
+        {
+          "id": "msg_c083b75f3820",
+          "role": "user",
+          "content": "Hello PrinceAI! Explain in 1 sentence what you can do.",
+          "timestamp": "2026-09-18T05:29:31.026Z"
+        },
+        {
+          "id": "msg_0be7a8c3da4c",
+          "role": "assistant",
+          "content": "I am PrinceAI, your enterprise full-stack assistant, capable of streamlining complex workflows, generating high-quality code, and providing intelligent data-driven insights to accelerate your development and business operations.",
+          "timestamp": "2026-09-18T05:29:41.243Z"
+        }
+      ]
+    },
+    {
+      "id": "conv_sample_01",
+      "userId": "usr_user_01",
+      "title": "Welcome to PrinceAI Platform",
+      "createdAt": "2026-09-18T04:23:25.756Z",
+      "updatedAt": "2026-09-18T05:29:23.657Z",
+      "messages": [
+        {
+          "id": "msg_01",
+          "role": "assistant",
+          "content": "Hello! Welcome to PrinceAI, your full-stack unified GenAI workspace. You can chat, upload documents, build interactive web applications and Android apps, create presentation decks, run web research, build autonomous agents, manage knowledge bases, and orchestrate visual workflows.",
+          "timestamp": "2026-09-18T04:23:25.756Z"
+        },
+        {
+          "id": "msg_60bef6cf3935",
+          "role": "user",
+          "content": "HI",
+          "timestamp": "2026-09-18T05:28:39.540Z"
+        },
+        {
+          "id": "msg_88ff508008f7",
+          "role": "assistant",
+          "content": "PrinceAI Assistant: I have processed your request: \"You are PrinceAI, an intelligent, helpful, and technically proficient assistant.\nUser query: HI...\"\n\nThe requested task has been analyzed according to PrinceAI system instructions. All safety and authorization policies are intact.",
+          "timestamp": "2026-09-18T05:28:53.026Z"
+        },
+        {
+          "id": "msg_d3b73a4070ff",
+          "role": "user",
+          "content": "EK WEBPAGE BNAP",
+          "timestamp": "2026-09-18T05:29:13.668Z"
+        },
+        {
+          "id": "msg_f59310182679",
+          "role": "assistant",
+          "content": "PrinceAI Assistant: I have processed your request: \"You are PrinceAI, an intelligent, helpful, and technically proficient assistant.\nUser query: EK WEBP...\"\n\nThe requested task has been analyzed according to PrinceAI system instructions. All safety and authorization policies are intact.",
+          "timestamp": "2026-09-18T05:29:23.657Z"
+        }
+      ]
+    }
+  ],
+  "documents": [],
+  "websiteProjects": [
+    {
+      "id": "web_4e4ec53f5d40",
+      "userId": "usr_user_01",
+      "title": "WEBSITE BNAO",
+      "description": "WEBSITE BNAO",
+      "files": [
+        {
+          "name": "index.html",
+          "path": "index.html",
+          "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>WEBSITE BNAO</title>\n  <link rel=\"stylesheet\" href=\"style.css\">\n</head>\n<body>\n  <header class=\"hero\">\n    <nav class=\"navbar\">\n      <div class=\"logo\">WEBSITE BNAO</div>\n      <ul class=\"nav-links\">\n        <li><a href=\"#about\">About</a></li>\n        <li><a href=\"#services\">Features</a></li>\n        <li><a href=\"#contact\">Contact</a></li>\n      </ul>\n    </nav>\n    <div class=\"hero-content\">\n      <h1>Welcome to WEBSITE BNAO</h1>\n      <p>Crafted by PrinceAI Web Architect for seamless, modern web presence.</p>\n      <button id=\"cta-btn\" class=\"primary-btn\">Explore Now</button>\n    </div>\n  </header>\n  <main>\n    <section id=\"about\" class=\"section\">\n      <h2>About Us</h2>\n      <p>Dedicated to delivering excellence with cutting-edge digital experiences.</p>\n    </section>\n    <section id=\"services\" class=\"section cards-grid\">\n      <div class=\"card\"><h3>Innovation</h3><p>Next-gen solutions crafted for scale.</p></div>\n      <div class=\"card\"><h3>Quality</h3><p>Rigorous attention to detail and performance.</p></div>\n      <div class=\"card\"><h3>Support</h3><p>Round-the-clock guidance and continuous iteration.</p></div>\n    </section>\n  </main>\n  <footer>\n    <p>&copy; 2026 WEBSITE BNAO. All rights reserved.</p>\n  </footer>\n  <script src=\"app.js\"></script>\n</body>\n</html>",
+          "language": "html"
+        },
+        {
+          "name": "style.css",
+          "path": "style.css",
+          "content": "* { box-sizing: border-box; margin: 0; padding: 0; }\nbody { font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif; color: #1e293b; background: #f8fafc; line-height: 1.6; }\n.hero { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: #fff; padding: 2rem 1.5rem 6rem; text-align: center; }\n.navbar { display: flex; justify-content: space-between; align-items: center; max-width: 1100px; margin: 0 auto 3rem; }\n.logo { font-size: 1.5rem; font-weight: 700; color: #38bdf8; }\n.nav-links { display: flex; list-style: none; gap: 1.5rem; }\n.nav-links a { color: #cbd5e1; text-decoration: none; font-weight: 500; transition: color 0.2s; }\n.nav-links a:hover { color: #fff; }\n.hero-content h1 { font-size: 2.8rem; margin-bottom: 1rem; color: #fff; }\n.hero-content p { font-size: 1.15rem; color: #94a3b8; max-width: 600px; margin: 0 auto 2rem; }\n.primary-btn { background: #38bdf8; color: #0f172a; border: none; padding: 0.75rem 2rem; border-radius: 9999px; font-weight: 600; cursor: pointer; transition: transform 0.2s, background 0.2s; }\n.primary-btn:hover { background: #7dd3fc; transform: translateY(-2px); }\n.section { max-width: 1100px; margin: 4rem auto; padding: 0 1.5rem; text-align: center; }\n.section h2 { font-size: 2rem; margin-bottom: 1.5rem; color: #0f172a; }\n.cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }\n.card { background: #fff; padding: 2.5rem 1.5rem; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }\n.card h3 { color: #0f172a; margin-bottom: 0.75rem; font-size: 1.3rem; }\n.card p { color: #64748b; font-size: 0.95rem; }\nfooter { background: #0f172a; color: #94a3b8; text-align: center; padding: 2rem; margin-top: 4rem; }",
+          "language": "css"
+        },
+        {
+          "name": "app.js",
+          "path": "app.js",
+          "content": "document.addEventListener('DOMContentLoaded', () => {\n  const btn = document.getElementById('cta-btn');\n  if (btn) {\n    btn.addEventListener('click', () => {\n      alert('Welcome to WEBSITE BNAO! Project generated by PrinceAI.');\n    });\n  }\n});",
+          "language": "javascript"
+        }
+      ],
+      "createdAt": "2026-09-18T05:28:43.598Z",
+      "updatedAt": "2026-09-18T05:28:43.598Z"
+    }
+  ],
+  "androidProjects": [],
+  "pptProjects": [],
+  "images": [],
+  "searches": [],
+  "chatbots": [
+    {
+      "id": "bot_support_01",
+      "userId": "usr_user_01",
+      "name": "Prince Knowledge Bot",
+      "description": "Specialized enterprise assistant for docs and coding",
+      "avatar": "🤖",
+      "welcomeMessage": "Hello! Ask me any questions about your documentation, codebases, or workflows.",
+      "systemInstructions": "You are PrinceBot, a precise and concise technical assistant.",
+      "tone": "Professional",
+      "language": "English",
+      "style": "Direct and code-first",
+      "includeWebSearch": true,
+      "documentIds": [],
+      "createdAt": "2026-09-18T05:23:25.756Z",
+      "updatedAt": "2026-09-18T05:23:25.756Z"
+    }
+  ],
+  "agentTasks": [],
+  "workspaceProjects": [],
+  "teamMembers": [
+    {
+      "id": "tm_01",
+      "teamId": "team_default",
+      "userId": "usr_admin_01",
+      "role": "EDITOR",
+      "email": "admin@princeai.com",
+      "name": "Prince Administrator",
+      "joinedAt": "2026-09-18T05:23:25.756Z"
+    },
+    {
+      "id": "tm_02",
+      "teamId": "team_default",
+      "userId": "usr_user_01",
+      "role": "CONTRIBUTOR",
+      "email": "user@princeai.com",
+      "name": "Demo Developer",
+      "joinedAt": "2026-09-18T05:23:25.756Z"
+    }
+  ],
+  "teamInvitations": [],
+  "teamActivities": [
+    {
+      "id": "act_01",
+      "teamId": "team_default",
+      "userId": "usr_admin_01",
+      "userName": "Prince Administrator",
+      "action": "initialized",
+      "target": "PrinceAI Core Workspace",
+      "timestamp": "2026-09-18T05:23:25.756Z"
+    }
+  ],
+  "teamComments": [],
+  "knowledgeBases": [
+    {
+      "id": "kb_demo_01",
+      "userId": "usr_user_01",
+      "name": "PrinceAI Platform Architecture",
+      "description": "Technical specs, security policies, and API endpoints",
+      "type": "PERSONAL",
+      "status": "READY",
+      "tags": [
+        "architecture",
+        "api",
+        "security"
+      ],
+      "documents": [
+        {
+          "id": "doc_kb_01",
+          "filename": "PrinceAI_Architecture_Overview.md",
+          "size": 4096,
+          "chunkCount": 3,
+          "uploadedAt": "2026-09-18T05:23:25.756Z"
+        }
+      ],
+      "createdAt": "2026-09-18T05:23:25.756Z",
+      "updatedAt": "2026-09-18T05:23:25.756Z"
+    }
+  ],
+  "knowledgeChunks": [
+    {
+      "id": "chk_01",
+      "documentId": "doc_kb_01",
+      "chunkIndex": 1,
+      "text": "PrinceAI Architecture consists of 18 cohesive phases starting from basic AI chat and conversation history to autonomous agents, multi-modal voice interaction, team RBAC, RAG knowledge indexing, and visual node workflow orchestration.",
+      "metadata": {
+        "filename": "PrinceAI_Architecture_Overview.md",
+        "pageOrSection": 1
+      }
+    },
+    {
+      "id": "chk_02",
+      "documentId": "doc_kb_01",
+      "chunkIndex": 2,
+      "text": "Security Model: PrinceAI strictly protects against Insecure Direct Object References (IDOR) by evaluating authorization and verified identity on all endpoints. Secret tokens and API keys are strictly retained on the backend and never exposed to the client.",
+      "metadata": {
+        "filename": "PrinceAI_Architecture_Overview.md",
+        "pageOrSection": 2
+      }
+    }
+  ],
+  "workflows": [
+    {
+      "id": "wf_study_01",
+      "userId": "usr_user_01",
+      "name": "AI Study Assistant & Report Generator",
+      "description": "Automated pipeline: Topic input -> Web Search -> Knowledge Search -> AI Synthesis -> Document Output",
+      "nodes": [
+        {
+          "id": "node_start",
+          "type": "START",
+          "label": "Start Flow",
+          "config": {},
+          "position": {
+            "x": 50,
+            "y": 150
+          }
+        },
+        {
+          "id": "node_input",
+          "type": "INPUT",
+          "label": "Study Topic Input",
+          "config": {
+            "variableName": "topic",
+            "defaultValue": "Quantum Computing Fundamentals"
+          },
+          "position": {
+            "x": 220,
+            "y": 150
+          }
+        },
+        {
+          "id": "node_search",
+          "type": "WEB_SEARCH",
+          "label": "Web Research",
+          "config": {
+            "queryTemplate": "Latest breakthroughs in {{topic}}"
+          },
+          "position": {
+            "x": 420,
+            "y": 150
+          }
+        },
+        {
+          "id": "node_ai",
+          "type": "AI_PROMPT",
+          "label": "AI Synthesis",
+          "config": {
+            "promptTemplate": "Summarize key findings on {{topic}} using retrieved context: {{search_results}}"
+          },
+          "position": {
+            "x": 620,
+            "y": 150
+          }
+        },
+        {
+          "id": "node_doc",
+          "type": "DOCUMENT_GENERATOR",
+          "label": "Generate Document",
+          "config": {
+            "title": "Study Report: {{topic}}",
+            "contentTemplate": "{{ai_response}}"
+          },
+          "position": {
+            "x": 820,
+            "y": 150
+          }
+        },
+        {
+          "id": "node_end",
+          "type": "END",
+          "label": "Finish Workflow",
+          "config": {},
+          "position": {
+            "x": 1020,
+            "y": 150
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "node_start",
+          "target": "node_input"
+        },
+        {
+          "id": "e2",
+          "source": "node_input",
+          "target": "node_search"
+        },
+        {
+          "id": "e3",
+          "source": "node_search",
+          "target": "node_ai"
+        },
+        {
+          "id": "e4",
+          "source": "node_ai",
+          "target": "node_doc"
+        },
+        {
+          "id": "e5",
+          "source": "node_doc",
+          "target": "node_end"
+        }
+      ],
+      "variables": {
+        "topic": "Quantum Computing Fundamentals"
+      },
+      "createdAt": "2026-09-18T05:23:25.756Z",
+      "updatedAt": "2026-09-18T05:23:25.756Z"
+    }
+  ],
+  "workflowRuns": [],
+  "securityEvents": [
+    {
+      "userId": "usr_user_01",
+      "ip": "127.0.0.1",
+      "eventType": "ROLE_UNAUTHORIZED",
+      "details": "User user@princeai.com with role USER attempted to access route requiring ADMIN, SUPER_ADMIN",
+      "id": "sec_f7d30bc7-3fd0-4365-ba41-56f2cbedf5b5",
+      "timestamp": "2026-09-18T05:27:53.067Z"
+    }
+  ],
+  "auditLogs": [],
+  "stats": {
+    "totalAiRequests": 47,
+    "totalTokensUsed": 125000
+  }
+}
